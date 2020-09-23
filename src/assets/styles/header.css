@@ -1,0 +1,102 @@
+header {
+  background-color: transparent;
+}
+
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 23px 39px 0;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+#nav-title {
+  font-family: 'Rozha One', serif;
+  font-size: 36px;
+  color: #143f60;
+  white-space: nowrap;
+}
+
+#book-treatment {
+  width: 177px;
+  height: 46px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #fea07a;
+  border: 0;
+  border-radius: 9px;
+}
+
+.menu {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+li + li {
+  margin-left: 26px;
+}
+
+a {
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 20px;
+  color: #5f5e5c;
+}
+
+@media (max-width: 1240px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 1240px) {
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 16px 29px;
+  }
+
+  #nav-title{
+    font-size: 20px;
+  }
+
+  .menu-icon-container {
+    position: absolute;
+  }
+
+  ul {
+    flex: 1;
+    justify-content: center;
+  }
+
+  li + li {
+    margin-left: 6px;
+  }
+}
+
+.social-icons-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social-icons-container a + a {
+  margin-left: 16px;
+}
+
+@media (max-width: 600px) {
+  .social-icons-container {
+    display: none;
+  }
+}
