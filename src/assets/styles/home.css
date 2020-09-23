@@ -181,6 +181,7 @@ header {
 .pill {
   display: flex;
   width: 80%;
+  max-width: 110rem;
   height: 100%;
   background: #d3c3b8;
   border-radius: 18rem 0 0 18rem;
@@ -208,6 +209,7 @@ header {
   .about-image-container img {
     margin-top: -10rem;
     width: 100%;
+    max-width: 360px;
     height: 100%;
   }
 
