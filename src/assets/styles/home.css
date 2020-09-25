@@ -243,8 +243,8 @@ header {
 }
 
 .experts-topics-container li p {
-  text-align: center; 
-  font:2rem 'Lato'; 
+  text-align: center;
+  font: 2rem 'Lato';
   color: #353535;
 }
 
@@ -373,6 +373,15 @@ header {
 
   .experts-topics-container ul {
     flex-direction: row;
+    padding: 0 2rem;
+  }
+  .experts-topics-container ul li {
+    width: 16rem;
+  }
+
+  .experts-topics-container ul li img {
+    width: 22.2rem;
+    height: 13rem;
   }
 
   .patient-and-practitioner-container {
@@ -380,7 +389,9 @@ header {
   }
 
   .patient-and-practitioner-container img {
-    width: 53rem;
-    height: 57rem;
-  }
+    width: 200%;
+    height: 200% ;
+    max-width: 53rem;
+    max-height: 57rem;
+  }        
 }

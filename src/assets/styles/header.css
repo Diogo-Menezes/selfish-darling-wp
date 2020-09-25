@@ -1,4 +1,6 @@
 header {
+  width: 100%;
+  max-width: 144rem;
   background-color: transparent;
 }
 
@@ -6,6 +8,10 @@ header {
   display: flex;
   flex-direction: row;
   padding: 23px 39px 0;
+}
+
+.desktop-nav a {
+  text-decoration: none;
 }
 
 ul {
@@ -67,7 +73,7 @@ a {
     padding: 16px 29px;
   }
 
-  #nav-title{
+  #nav-title {
     font-size: 20px;
   }
 
